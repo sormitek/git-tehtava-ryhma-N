@@ -50,6 +50,7 @@ public class App {
             System.out.println("krediittejä on jäljellä "+ir);
             System.out.println("Pelataksesi uudestaan, paina enter. Lopettaaksesi syötä 'e' ja paina enter");
             q = s1.nextLine();
+            q = q.trim();
         if (q.equals ("e")){
             System.out.print("kiitos pelaamisesta, sinulle jäi "+ir);
             System.out.println(" krediittiä");
