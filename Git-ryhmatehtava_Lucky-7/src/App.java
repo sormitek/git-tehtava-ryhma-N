@@ -4,15 +4,19 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
     
+        //Matias commit, muokkaus pelin teksteihin
+    System.out.println("Tervetuloa pelaamaan lucky7 peliä!");
+    System.out.println("***********************************");
+    System.out.println("Numerolla 7 voittaa lisää krediittejä");
+    System.out.println("Kuinka monta krediittiä haluat lisätä? Syötä määrä ja paina enter");
+
     int n = 1;
     Random r = new Random();
     Scanner s = new Scanner(System.in);
     Scanner s1 = new Scanner(System.in);
     String q = "";
         // Raha
-        System.out.println(".:Lucky 7:.");
-        System.out.println("Numerolla 7 voittaa lisää krediittejä");
-        System.out.println("Kuinka monta krediittiä haluat lisätä? Syötä määrä ja paina enter");
+        
         int ir = s.nextInt();
     do{{    
         
